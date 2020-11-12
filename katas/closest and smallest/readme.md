@@ -1,4 +1,4 @@
-#1 Closest and Smallest
+# Closest and Smallest
 
 Input
 * a string strng of n positive numbers (n = 0 or n >= 2)
@@ -7,7 +7,7 @@ Let us call weight of a number the sum of its digits. For example 99 will have "
 
 Two numbers are "close" if the difference of their weights is small.
 
-#2 Task:
+## Task:
 For each number in strng calculate its "weight" and then find two numbers of strng that have:
 * the smallest difference of weights ie that are the closest
 * with the smallest weights
@@ -22,7 +22,7 @@ or a matrix in R (2 rows, 3 columns, no columns names)
 
 The two subarrays are sorted in ascending order by their number weights if these weights are different, by their indexes in the string if they have the same weights.
 
-#2 Examples:
+## Examples:
 Let us call that function closest
 
 ```
@@ -74,7 +74,7 @@ closest should return  [[9, 0, 54], [9, 2, 162]] or ([9, 0, 54], [9, 2, 162])
 or [{9, 0, 54}, {9, 2, 162}] or ...
 ```
 
-#2 Notes :
+## Notes :
 If n == 0 closest("") should return []
 * or ([], []) in Haskell, Clojure, FSharp
 * or [{}, {}] in Elixir or '(() ()) in Racket
