@@ -10,7 +10,9 @@ Given an array arr of strings complete the function landPerimeter by calculating
  'OXOOO']
 ```
 or
+
 ![пример](https://i.snipboard.io/ZOQYs2.jpg)
+
 should return: ```"Total land perimeter: 24"```,
 while
 
@@ -21,7 +23,9 @@ while
  'OOXX',
  'OOOO']
 ```
+
 ![пример](https://i.snipboard.io/Kv9BEz.jpg)
+
 should return: ```"Total land perimeter: 18"```
 
 Good luck!
