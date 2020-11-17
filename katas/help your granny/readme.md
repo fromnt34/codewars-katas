@@ -53,6 +53,7 @@ Can you help your granny and give her the distance to travel?
 
 ## Notes
 If you have some difficulty to see the tour I made a non terrific but maybe useful drawing:
+
 ![map of travel](https://i.imgur.com/dG7iWXhm.jpg "map of travel")
 
 ## All languages
