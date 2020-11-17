@@ -8,7 +8,7 @@ Your job is to decide who wins.
 
 Example:
 
-```js
+```
  robot1 = {
   "name": "Rocky",
   "health": 100,

@@ -8,7 +8,7 @@ The result will be an array of arrays or of tuples (in C an array of Pair) or a 
 
 ## Examples:
 
-```js
+```
 list_squared(1, 250) --> [[1, 1], [42, 2500], [246, 84100]]
 list_squared(42, 250) --> [[42, 2500], [246, 84100]]
 ```

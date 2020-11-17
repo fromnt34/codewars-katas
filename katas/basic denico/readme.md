@@ -40,7 +40,7 @@ o n
 
 ## Examples
 
-```js
+```
 deNico("crazy", "cseerntiofarmit on  ") => "secretinformation"
 deNico("abc", "abcd") => "abcd"
 deNico("ba", "2143658709") => "1234567890"

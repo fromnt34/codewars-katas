@@ -7,7 +7,7 @@ Your granny, who lives in town X0, has friends. These friends are given in an ar
 **The order of friends is this array must not be changed since this order gives the order in which they will be visited.**
 
 These friends inhabit towns and you have an array with friends and towns, for example:
-```js
+```
 [ ["A1", "X1"], ["A2", "X2"], ["A3", "X3"], ["A4", "X4"] ]
 or
 [ ("A1", "X1"), ("A2", "X2"), ("A3", "X3"), ("A4", "X4") ]
@@ -20,16 +20,16 @@ which means A1 is in town X1, A2 in town X2... It can happen that we don't know 
 Your granny wants to visit her friends and to know how many miles she will have to travel.
 
 You will make the circuit that permits her to visit her friends. For example here the circuit will contain:
-```js
+```
 X0, X1, X2, X3, X4, X0 
 ```
 and you must compute the total distance
-```js
+```
 X0X1 + X1X2 + .. + X4X0.
 ```
 
 For the distance, fortunately, you have a map (and a hashmap) that gives each distance X0X1, X0X2 and so on. For example:
-```js
+```
 [ ["X1", 100.0], ["X2", 200.0], ["X3", 250.0], ["X4", 300.0] ]
 or
 Map("X1" -> 100.0, "X2" -> 200.0, "X3" -> 250.0, "X4" -> 300.0)
