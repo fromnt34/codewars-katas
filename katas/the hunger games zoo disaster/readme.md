@@ -46,11 +46,13 @@ A list of strings (refer to the example below) where:
 
 ## Example
 *Input*
-```"fox,bug,chicken,grass,sheep"```
+```
+"fox,bug,chicken,grass,sheep"
+```
 
 *Working*
 | action | animals in zoo |
-|:------:|:--------------:|
+|:------|--------------:|
 | fox can't eat bug | ```"fox,bug,chicken,grass,sheep"``` |
 | bug can't eat anything | ```"fox,bug,chicken,grass,sheep"``` |
 | chicken eats bug | ```"fox,chicken,grass,sheep"``` |
